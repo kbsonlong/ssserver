@@ -8,7 +8,9 @@
     docker build -t sserver{:version} .
 
 #3、运行sserver容器
+
     docker run -d  -p 8443:8443 --name ssserver --restart=always ssserver:{varsion}
 
 #4、配置shadowsocks客户端
+
 ![image](/img/shadowsocks.png)
